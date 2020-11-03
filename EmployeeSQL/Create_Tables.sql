@@ -5,7 +5,7 @@ CREATE TABLE departments(
 );
 
 CREATE TABLE salary(
-	emp_ID VARCHAR(10),
+	emp_ID INT,
 	salary INT,
 	PRIMARY KEY (emp_ID)
 );
