@@ -47,6 +47,9 @@ SELECT e.emp_ID, e.last_name, e.first_name, d.dept_name
 FROM employees e
 JOIN dept_emp de
 ON (e.emp_ID = de.emp_ID)
+JOIN departments d
+ON (de.dept_ID = d.dept_ID)
+WHERE (d.dept_name = 'Sales');
 
 /*7. List all employees in the Sales and Development departments, 
 including their employee number, last name, first name, and department name. */
