@@ -22,3 +22,13 @@ JOIN dept_manager dm
 ON (e.emp_ID = dm.emp_ID)
 JOIN departments d
 ON (dm.dept_ID = d.dept_ID);
+
+/* 4. List the department of each employee with the following information: 
+employee number, last name, first name, and department name. */
+
+SELECT e.emp_ID, e.last_name, e.first_name, d.dept_name
+FROM employees e
+JOIN dept_manager dm
+ON (e.emp_ID = dm.emp_ID)
+JOIN departments d
+ON (dm.dept_ID = d.dept_ID);
