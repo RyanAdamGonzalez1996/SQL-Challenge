@@ -43,3 +43,15 @@
  7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
  8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+# Bonus Section 
+
+- Import the SQL database into Pandas
+   - (Hid the database url as it contained my password)
+- After Import, perform these tasks:
+
+1. Create a histogram to visualize the most common salary ranges for employees.
+
+2. Create a bar chart of average salary by title.
+
+- Added screenshots of the graphs to the 'Images' folder.
